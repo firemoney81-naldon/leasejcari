@@ -1,23 +1,465 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+
+   <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.example.com/genesis-g70-lease-guide"
+          },
+          "headline": "제네시스 G70 리스 가격 및 장단점 분석: 2026년형 완벽 가이드",
+          "description": "2026년형 제네시스 G70 리스 및 장기렌트 비용 비교 분석. 개인사업자 세금 혜택부터 월 납입료 평균까지, G70 리스를 가장 저렴하게 이용하는 방법을 심층적으로 안내합니다.",
+          "image": [
+            "https://www.example.com/images/genesis-g70-lease-main.jpg"
+           ],
+          "datePublished": "2026-01-15T09:00:00+09:00",
+          "dateModified": "2026-01-15T09:00:00+09:00",
+          "author": {
+            "@type": "Organization",
+            "name": "대한민국 자동차 금융 연구소"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "대한민국 자동차 금융 연구소",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.example.com/images/logo.png"
+            }
+          }
+        }
+        </script>
+
+        <!-- Canonical URL -->
+        <link rel="canonical" href="https://www.example.com/genesis-g70-lease-guide">
+
+        <!-- Custom CSS -->
+        <style>
+            :root {
+                --primary-color: #007bff; /* 부드러운 파랑 */
+                --secondary-color: #6c757d; /* 부드러운 회색 */
+                --light-bg: #f8f9fa; /* 밝은 배경 */
+                --soft-yellow: #fff3cd; /* 경고/하이라이트 색상 */
+                --soft-green: #d4edda; /* 성공/안정 색상 */
+                --soft-red: #f8d7da; /* 위험/주의 색상 */
+                --text-dark: #212529;
+                --text-light: #ffffff;
+                --border-color: #dee2e6;
+            }
+
+            body {
+                font-family: 'Malgun Gothic', 'Dotum', sans-serif;
+                margin:0;
+                padding:0;
+                color: var(--text-dark);
+                line-height:1.7;
+                background-color: var(--light-bg);
+            }
+
+            header, section, footer {
+                max-width:900px;
+                margin:25px auto;
+                padding:0 20px;
+                background-color: var(--text-light); /* 섹션 배경 흰색으로 명확한 구획 */
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.05); /* 부드러운 그림자 */
+            }
+
+            header {
+                padding: 40px 20px;
+                background: linear-gradient(135deg, var(--primary-color), #0056b3); /* 그라데이션 타이틀 */
+                color: var(--text-light);
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 2.5em;
+                margin-bottom: 10px;
+                text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+            }
+
+            h2 {
+                color: var(--primary-color);
+                border-bottom: 3px solid var(--soft-yellow); /* 강조 라인 */
+                padding-bottom: 10px;
+                margin-top: 30px;
+                font-size: 1.8em;
+            }
+
+            h3 {
+                color: #495057;
+                margin-top: 20px;
+                border-left: 5px solid var(--primary-color);
+                padding-left: 10px;
+            }
+
+            .cta-btn {
+                display:inline-block;
+                background: var(--primary-color);
+                color: var(--text-light);
+                padding:15px 30px;
+                border-radius:30px;
+                text-decoration:none;
+                font-size:1.2em;
+                font-weight: bold;
+                transition: background .3s, transform .2s;
+                margin: 20px 0;
+            }
+
+            .cta-btn:hover {
+                background:#0056b3;
+                transform: translateY(-2px);
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            }
+
+            nav ul {
+                list-style:none;
+                padding:0;
+                display:flex;
+                justify-content: center;
+                gap: 25px;
+                margin-top: 20px;
+            }
+
+            nav a {
+                text-decoration:none;
+                color: var(--text-light);
+                font-weight: 600;
+                padding: 5px 10px;
+                border-bottom: 2px solid transparent;
+                transition: border-bottom .3s;
+            }
+
+            nav a:hover {
+                border-bottom: 2px solid var(--soft-yellow);
+            }
+
+            .key-info-box {
+                background-color: var(--soft-green);
+                padding: 20px;
+                margin: 20px 0;
+                border-radius: 8px;
+                border-left: 8px solid #28a745;
+            }
+
+            .alert-box {
+                background-color: var(--soft-red);
+                color: #721c24;
+                padding: 15px;
+                margin: 20px 0;
+                border-radius: 6px;
+                font-weight: bold;
+            }
+
+            .faq .item {
+                margin-bottom: 25px;
+                border-bottom: 1px dashed var(--border-color);
+                padding-bottom: 15px;
+            }
+
+            .faq h3 {
+                cursor: pointer;
+                color: var(--primary-color);
+                border-left: none;
+                padding-left: 0;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+            }
+            table, th, td {
+                border: 1px solid var(--border-color);
+            }
+            th, td {
+                padding: 12px;
+                text-align: left;
+            }
+            th {
+                background-color: var(--primary-color);
+                color: var(--text-light);
+                font-weight: bold;
+            }
+
+            /* 폼 요소 스타일 */
+            form p {
+                margin-bottom: 15px;
+            }
+            input[type="text"], input[type="tel"], input[type="email"], select, textarea {
+                width: 100%;
+                padding: 12px;
+                margin-top: 5px;
+                border: 1px solid var(--border-color);
+                border-radius: 5px;
+                box-sizing: border-box; /* 패딩이 너비에 포함되도록 */
+            }
+            .form-group {
+                margin-bottom: 20px;
+                padding: 15px;
+                background-color: var(--light-bg);
+                border-radius: 8px;
+            }
+
+            /* 외부 링크 강조 */
+            .external-links ul {
+                list-style: none;
+                padding-left: 0;
+            }
+            .external-links li a {
+                display: block;
+                background-color: #e9ecef;
+                padding: 10px 15px;
+                margin-bottom: 8px;
+                border-radius: 4px;
+                text-decoration: none;
+                color: var(--secondary-color);
+                transition: background-color .2s;
+            }
+            .external-links li a:hover {
+                background-color: #dee2e6;
+                color: var(--primary-color);
+            }
+            
+            /* 이미지 스타일 */
+            .article-image {
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+                margin-bottom: 20px;
+                object-fit: cover;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <h1>제네시스 G70 리스 vs 장기렌트: 2026년형 가격, 장단점 완벽 비교 가이드</h1>
+            <p><strong>제네시스 G70 리스</strong>를 고민하는 당신을 위한 완벽 분석! 최신 <strong>2026년형 G70 리스가격</strong>부터 <strong>장기렌트</strong>와의 <strong>장단점 비교</strong>, 그리고 <strong>최저가 견적</strong> 받는 법까지 모든 정보를 담았습니다.</p>
+            <nav>
+                <ul>
+                    <li><a href="#lease-vs-rental">리스 vs 렌트</a></li>
+                    <li><a href="#cost-analysis">G70 리스 가격</a></li>
+                    <li><a href="#pros-cons">장점과 단점</a></li>
+                    <li><a href="#compare">비교 분석</a></li>
+                    <li><a href="#consult">무료 견적</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <img class="article-image" src="https://images.pexels.com/photos/1036884/pexels-photo-1036884.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Genesis G70 luxury car in motion">
+        </section>
+
+        <section>
+            <h2>네이버 검색 최적화 키워드 분석 (G70 리스 관련)</h2>
+            <p>본 페이지는 다음과 같은 주요 검색 키워드에 최적화되어 있습니다. 궁금한 키워드를 클릭하여 해당 내용으로 바로 이동하세요.</p>
+            <div class="key-info-box">
+                <ul>
+                    <li><a href="#lease-vs-rental"><strong>제네시스G70 리스</strong> (핵심 키워드)</a> | <a href="#lease-vs-rental"><strong>G70 장기렌트</strong></a></li>
+                    <li><a href="#cost-analysis"><strong>제네시스 G70 리스가격</strong></a> | <a href="#cost-analysis"><strong>G70 리스 견적</strong></a> | <a href="#cost-analysis"><strong>G70 리스 월 납입료</strong></a></li>
+                    <li><a href="#pros-cons"><strong>G70 리스 장단점</strong></a> | <a href="#pros-cons"><strong>리스와 렌트 차이점</strong></a></li>
+                    <li><a href="#comparison-table"><strong>G70 리스 저렴한곳</strong></a> | <a href="#comparison-table"><strong>G70 리스 업체 추천</strong></a></li>
+                    <li><a href="#tax-benefit"><strong>개인사업자 리스</strong></a> | <a href="#tax-benefit"><strong>법인 리스 세금혜택</strong></a> | <a href="#tips"><strong>리스 할인 혜택</strong></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="lease-vs-rental">
+            <h2>1️⃣ 제네시스 G70 리스 vs 장기렌트: 핵심 차이점 완벽 비교</h2>
+            <div class="key-info-box" id="lease-vs-rental">
+                <h3>📌 제네시스 G70 리스란 무엇인가요?</h3>
+                <p><strong>제네시스 G70 리스</strong>는 금융 상품으로 분류됩니다. 리스 회사(금융사)가 고객이 원하는 G70 차량을 대신 구입하고, 고객은 계약 기간 동안 차량을 이용한 대가로 월별 리스료를 납부하는 방식입니다. 차량의 소유권은 리스 회사에 있으며, 계약 만료 시 인수, 반납, 재리스 중 하나를 선택할 수 있습니다. 특히 <strong>개인사업자 리스</strong>나 <strong>법인 리스</strong>의 경우, 월 리스료 전액을 비용으로 처리하여 세금 감면 혜택을 받을 수 있다는 강력한 장점이 있습니다.</p>
+
+                <h3>📌 G70 장기렌트란 무엇인가요?</h3>
+                <p><strong>G70 장기렌트</strong>는 자동차 대여 상품입니다. 리스와 마찬가지로 월 이용료를 납부하며 차량을 이용하지만, 렌터카 회사 소유의 차량으로 등록됩니다. 가장 큰 특징은 **번호판이 '하, 허, 호'**로 정해져 있다는 점입니다. 렌트료에는 보험료와 차량 정비 비용이 포함되어 있어, 이용자가 별도로 신경 쓸 필요가 없습니다. <strong>G70 장기렌트</strong>는 초기 비용 부담을 최소화하고 싶은 운전자나, 사고로 인한 보험료 할증을 피하고 싶은 경우에 유리합니다.</p>
+
+                <div id="tax-benefit">
+                    <h3>세금 측면에서의 G70 리스 vs 장기렌트</h3>
+                    <p><strong>개인사업자</strong>나 <strong>법인</strong>의 경우, G70 리스나 장기렌트 모두 비용 처리를 통한 세금 절감 효과를 기대할 수 있습니다. 하지만 회계 처리에 약간의 차이가 있습니다. 리스는 감가상각비, 금융이자, 보험료 등을 각각 비용 처리해야 하는 반면, 장기렌트는 월 렌트료 전체를 하나의 비용으로 처리하므로 회계 관리가 더 간편합니다. <strong>G70 리스</strong>를 선택하는 분들은 주로 일반 번호판을 선호하거나 보험 경력을 유지하고 싶은 분들입니다.</p>
+                </div>
+                <p>... (약 2,000자 분량의 심층 내용: 리스와 렌트의 회계 처리 방식, G70 리스 계약 시 선수금과 보증금의 차이점, 금융 리스와 운용 리스의 구분 등)</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="cost-analysis">
+            <h2>2️⃣ 2026년형 제네시스 G70 리스 견적 및 월 납입료 평균 분석</h2>
+
+            <div class="alert-box">
+                <h3>🚨 G70 리스 가격을 결정하는 핵심 요소 3가지</h3>
+                <p><strong>제네시스 G70 리스견적</strong>은 단순히 차량 가격으로 결정되지 않습니다. **잔존가치, 금리(이자율), 초기비용** 세 가지 요소가 월 납입료를 좌우합니다. 2026년형 G70 풀체인지 또는 페이스리프트 모델의 경우, 초기에 잔존가치를 높게 설정하면 월 납입료는 낮아지지만, 만기 시 인수 비용이 높아집니다. 반대로 잔존가치를 낮게 설정하면 월 납입료는 높아지지만 인수 비용이 낮아집니다. 이 때문에 **G70 리스** 계약 전에는 반드시 <strong>G70 리스 가격 비교</strong>를 통해 최적의 조건을 찾아야 합니다.</p>
+            </div>
+
+            <h3 id="comparison-table">제네시스 G70 리스 vs 장기렌트 월 납입료 비교 (2026년형 2.0T 기준)</h3>
+            <p><strong>제네시스 G70 리스</strong>와 장기렌트의 월 납입료를 2026년형 2.0T 모델(차량가 약 4,500만원)을 기준으로 비교한 가상의 시뮬레이션입니다.</p>
+            <table>
+                <tr><th>구분</th><th>G70 금융 리스 (36개월)</th><th>G70 장기렌트 (36개월)</th><th>G70 할부 구매 (36개월)</th></tr>
+                <tr><td><strong>초기 비용</strong></td><td>선수금 30% (약 1,350만원)</td><td>보증금 30% (약 1,350만원)</td><td>선수금 30% (약 1,350만원)</td></tr>
+                <tr><td><strong>월 납입금 (예상)</strong></td><td>약 65만원</td><td>약 80만원</td><td>약 95만원 (할부 이자 포함)</td></tr>
+                <tr><td><strong>보험료 부담</strong></td><td>개인 부담 (약 100~200만원/년)</td><td>렌트료 포함 (X)</td><td>개인 부담</td></tr>
+                <tr><td><strong>차량 번호판</strong></td><td>일반 번호판</td><td>하/허/호 번호판</td><td>일반 번호판</td></tr>
+                <tr><td><strong>총 이용 비용(만기 시 인수 시)</strong></td><td>높음 (총 납입금 + 잔존가치)</td><td>높음 (총 납입금 + 인수비)</td><td>중간 (차량가 + 이자)</td></tr>
+            </table>
+
+            <p><strong>주의사항:</strong> 위의 표는 <strong>G70 리스 업체</strong>와 계약 조건에 따라 달라질 수 있는 <strong>평균적인 리스 비용</strong>을 나타냅니다. <strong>G70 리스</strong>를 <strong>저렴한곳</strong>에서 진행하려면 반드시 여러 업체의 <strong>G70 리스 견적</strong>을 비교해야 합니다. 특히 최근 AI 기반의 챗지피티(ChatGPT)나 제미나이(Gemini) 같은 대화형 AI가 시장 분석을 도와주면서, 소비자들이 더 쉽게 최저가를 찾고 있습니다.</p>
+            <p>... (약 1,500자 분량의 심층 내용: 금리 변동에 따른 리스료 변화, 개인사업자 리스 시 비용 처리 한도, G70 페이스리프트 모델의 잔존가치 변동 예측 등)</p>
+        </section>
+
+        <hr>
+
+        <section id="pros-cons">
+            <h2>3️⃣ 제네시스 G70 리스 장단점 심층 분석 (가입 전 필수 확인)</h2>
+
+            <div class="key-info-box">
+                <h3>✔️ 제네시스 G70 리스의 주요 장점</h3>
+                <ul>
+                    <li><strong>1. 월 납입금 절감:</strong> <strong>G70 리스</strong>는 차량 가격 중 잔존가치를 제외한 금액만 납부하므로, 동일 기간 할부보다 월 납입금이 저렴하여 초기 부담이 낮습니다.</li>
+                    <li><strong>2. 세금 혜택 (개인사업자/법인):</strong> <strong>G70 리스</strong>는 월 리스료 전액을 사업 비용으로 처리하여 종합소득세나 법인세를 절감할 수 있습니다. 특히 고가 차량일수록 절세 효과가 큽니다.</li>
+                    <li><strong>3. 일반 번호판 사용:</strong> 렌트와 달리 일반 승용차와 동일한 번호판(가/나/다 등)을 사용하여 품위를 유지할 수 있습니다.</li>
+                    <li><strong>4. 보험 경력 유지:</strong> <strong>G70 리스</strong>는 운전자 명의로 보험에 가입하므로, 무사고 경력이 지속적으로 인정되어 만기 후 보험료 할증 걱정이 적습니다.</li>
+                </ul>
+            </div>
+
+            <div class="alert-box">
+                <h3>❌ 제네시스 G70 리스의 단점 및 주의사항</h3>
+                <ul>
+                    <li><strong>1. 총 비용 증가:</strong> 차량을 만기 시 인수할 경우, 총 납입금에 잔존가치와 추가 이자가 더해져 할부 구매보다 총비용이 비쌀 수 있습니다.</li>
+                    <li><strong>2. 중도 해지 수수료:</strong> <strong>G70 리스</strong> 계약 중도 해지 시 위약금이 발생합니다. 계약 기간(예: 36개월, 48개월)을 신중하게 결정해야 합니다.</li>
+                    <li><strong>3. 주행거리 제한:</strong> 연간 약정 주행거리를 초과하면 추가 비용을 지불해야 합니다. (G70 리스 후기를 보면 초과금이 부담된다는 의견이 많습니다.)</li>
+                    <li><strong>4. 보험료 개별 부담:</strong> <strong>G70 리스</strong>는 운전자 본인이 별도로 보험에 가입해야 하므로, 초보 운전자의 경우 보험료가 비쌀 수 있습니다.</li>
+                </ul>
+            </div>
+            <p>... (약 1,500자 분량의 심층 내용: 리스와 렌트의 중도 해지 위약금 차이, 리스 만기 시 인수/반납/재리스 선택 기준, G70 리스를 <strong>싼곳</strong>에서 찾기 위한 노하우 등)</p>
+        </section>
+
+        <hr>
+
+        <section id="tips">
+            <h2>4️⃣ G70 리스 최저가 견적을 위한 필수 팁과 혜택 정보</h2>
+
+            <div class="key-info-box">
+                <h3>✅ G70 리스 할인 및 프로모션 활용 팁</h3>
+                <p><strong>제네시스 G70 리스</strong>를 <strong>저렴한곳</strong>에서 진행하려면 시기를 잘 맞춰야 합니다. 특히 신차 출시 직전이나 연말에는 재고 소진을 위해 **G70 리스 할인** 프로모션이 활발하게 진행됩니다. 또한, <strong>G70 리스 업체</strong>별로 제공하는 **사은품**이나 **현금지원** 혜택도 놓쳐서는 안 됩니다. <strong>내돈내산 G70 리스 후기</strong>를 참고하여 어떤 업체가 <strong>G70 리스 견적</strong>을 가장 잘 뽑아주는지 확인하는 것도 좋은 방법입니다. <strong>G70 리스 전문</strong> 업체들은 제휴된 금융사를 통해 더 낮은 금리를 제공할 수 있으므로, 단독 진행보다는 전문 컨설팅을 받는 것이 유리합니다.</p>
+                <p><strong>G70 리스</strong> 비교 시, <strong>G70 리스 순위</strong>를 참고하는 것 외에도 견적서의 세부 항목(예: 금리, 잔존가치)을 꼼꼼히 따져봐야 합니다. 겉으로 보이는 <strong>월 납입금 평균</strong>이 낮더라도 숨겨진 추가 비용이 없는지 확인하세요.</p>
+            </div>
+
+            <h3 id="compare">G70 리스 vs 렌트 최종 선택 기준</h3>
+            <table>
+                <tr><th>선택 기준</th><th>G70 리스를 추천하는 경우</th><th>G70 장기렌트를 추천하는 경우</th></tr>
+                <tr><td><strong>세금 혜택</strong></td><td>개인사업자, 법인사업자 (경비 처리 목적)</td><td>개인사업자, 법인사업자 (간편한 회계 처리)</td></tr>
+                <tr><td><strong>초기 비용</strong></td><td>선수금을 낮게 설정하고 싶을 때 (보증금 가능)</td><td>초기 비용 없이 시작하고 싶을 때</td></tr>
+                <tr><td><strong>주행거리</strong></td><td>주행거리가 적거나, 주행거리 제한에 민감한 경우</td><td>주행거리가 많아 관리가 필요한 경우</td></tr>
+                <tr><td><strong>보험/정비</strong></td><td>무사고 경력 유지, 직접 관리 선호 시</td><td>사고 시 보험료 할증 걱정 없음, 정비 편의성 중시 시</td></tr>
+                <tr><td><strong>외관/품위</strong></td><td>'하/허/호' 번호판이 부담스러울 때</td><td>번호판에 크게 신경 쓰지 않을 때</td></tr>
+            </table>
+            <p><strong>G70 리스 견적</strong>을 받을 때, 계약 기간(36개월, 48개월, 60개월)을 길게 가져가면 월 납입료는 낮아지지만 총 이자 비용은 증가합니다. <strong>G70 리스 추천</strong> 업체들은 개인의 운행 습관과 재정 상황에 맞춰 최적의 조건을 제안해 줄 것입니다.</p>
+            <p>... (약 1,500자 분량의 심층 내용: G70 리스 만기 시 재구매/인수 시점의 시장 가치 예측, G70 리스 견적 비교 시 반드시 확인해야 할 금리 정보, AI 기반 G70 리스견적 비교 서비스 활용법 등)</p>
+        </section>
+
+        <hr>
+
+        <section class="external-links">
+            <h2>💡 공인된 외부 신뢰성 자료 및 참고 사이트 (네이버 신뢰도 향상)</h2>
+            <p><strong>제네시스 G70 리스</strong> 및 자동차 금융에 대한 신뢰성 있는 정보를 다음 기관에서 확인하실 수 있습니다.</p>
+            <ul>
+                <li>[자동차 금융] <a href="https://www.fss.or.kr/main/index.do" target="_blank" rel="nofollow noopener">**금융감독원** 금융 소비자 정보 포털</a></li>
+                <li>[자동차 통계] <a href="https://www.kama.or.kr/" target="_blank" rel="nofollow noopener">**한국자동차산업협회** (KAMA)</a></li>
+                <li>[자동차 백과사전] <a href="https://namu.wiki/w/제네시스_G70" target="_blank" rel="nofollow noopener">**나무위키** - 제네시스 G70 항목</a></li>
+                <li>[자동차 정보] <a href="https://www.carisyou.com/" target="_blank" rel="nofollow noopener">**카이즈유** (자동차 데이터 연구소)</a></li>
+                <li>[리스 관련 법규] <a href="https://www.law.go.kr/법령/여신전문금융업법" target="_blank" rel="nofollow noopener">**여신전문금융업법** (국가법령정보센터)</a></li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="faq" class="faq">
+            <h2>❓ 자주 묻는 질문 (FAQ) - 네이버 스니펫 최적화</h2>
+            <p>사용자들이 <strong>제네시스G70 리스</strong>를 검색할 때 가장 많이 묻는 질문들입니다.</p>
+
+            <div class="item">
+                <h3>Q1: G70 리스 견적은 어디서 받는 것이 가장 저렴한가요?</h3>
+                <p>A: <strong>G70 리스 견적</strong>은 금융사와 리스 에이전시마다 다릅니다. 한 업체만 비교하기보다, 여러 <strong>G70 리스 업체</strong>의 견적을 비교해 주는 **비교 사이트**나 **전문 컨설턴트**를 통해 <strong>제네시스 G70 리스 가격</strong>을 확인하는 것이 가장 <strong>저렴한곳</strong>을 찾는 방법입니다. <strong>G70 리스 혜택</strong>이나 프로모션도 업체별로 상이합니다.</p>
+            </div>
+
+            <div class="item">
+                <h3>Q2: 개인사업자가 G70 리스를 하면 세금 혜택을 얼마나 받을 수 있나요?</h3>
+                <p>A: 개인사업자의 경우, 업무용 차량으로 <strong>G70 리스</strong>를 이용할 때 연간 1,500만원(승용차 기준)까지 비용 처리가 가능합니다. 월 리스료, 유류비, 자동차세, 보험료 등을 포함한 금액이며, <strong>G70 리스</strong>가 장기렌트보다 비용 처리 항목이 세분화되어 있습니다. 정확한 절세 금액은 소득 구간과 회계 방식에 따라 달라지므로 전문가와 상담해야 합니다.</p>
+            </div>
+
+            <div class="item">
+                <h3>Q3: G70 리스 만기 시 반드시 인수를 해야 하나요?</h3>
+                <p>A: <strong>G70 리스</strong> 만기 시 **인수, 반납, 재리스(연장)** 중 하나를 선택할 수 있습니다. <strong>제네시스 G70</strong>의 경우 중고차 가치가 높아 인수가 유리할 수 있지만, 만기 시점의 차량 상태와 잔존가치를 고려하여 결정합니다. <strong>G70 리스 장단점</strong> 중 하나가 선택의 유연성입니다.</p>
+            </div>
+
+            <div class="item">
+                <h3>Q4: G70 장기렌트와 리스 중 어떤 것이 더 유리한가요?</h3>
+                <p>A: <strong>G70 리스</strong>는 **일반 번호판**을 원하거나 **보험 경력**을 유지하고 싶은 운전자에게 유리하며, <strong>장기렌트</strong>는 **초기 비용 없이** G70을 이용하고 싶거나 **보험 할증** 걱정을 피하고 싶은 운전자에게 유리합니다. **G70 리스가격**과 <strong>G70 장기렌트 가격</strong>을 비교할 때 보험료와 정비 비용 포함 여부를 반드시 확인해야 합니다.</p>
+            </div>
+
+            <div class="item">
+                <h3>Q5: G70 리스 계약 시 선수금과 보증금의 차이점은 무엇인가요?</h3>
+                <p>A: <strong>선수금</strong>은 리스 기간 동안의 비용을 미리 납부하는 것이므로 돌려받을 수 없는 돈입니다. <strong>보증금</strong>은 계약 기간 동안 리스 회사에 맡기는 담보금이며, 계약 만료 시 반납하거나 인수에 사용할 수 있습니다. 보증금은 월 리스료를 낮추는 효과가 있습니다. **G70 리스 견적** 상담 시 초기 비용 설정에 따라 월 납입금 평균이 달라집니다.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="consult">
+            <h2>📞 제네시스 G70 맞춤형 리스/장기렌트 견적 무료 상담 신청</h2>
+            <p><strong>제네시스 G70 리스</strong> 전문가에게 <strong>G70 리스견적</strong>, **장기렌트 견적**, **G70 리스 할인** 및 혜택에 대한 맞춤형 상담을 요청하세요. 정확한 정보를 입력해 주시면 최적의 견적을 비교 분석해 드립니다.</p>
+
+            <div class="form-group">
+                <h3>📝 제네시스 G70 무료 견적 및 컨설팅 신청서</h3>
+                <form action="/submit-full-quote" method="post">
+                    <p><label for="consult-name">이름</label><br><input type="text" id="consult-name" name="name" required></p>
+                    <p><label for="consult-phone">연락처</label><br><input type="tel" id="consult-phone" name="phone" required></p>
+                    <p><label for="consult-email">이메일</label><br><input type="email" id="consult-email" name="email" required></p>
+
+                    <p><label for="car-model-specific">희망 차량 모델 (G70 2.0T/3.3T 등)</label><br><input type="text" id="car-model-specific" name="car-model-specific" placeholder="예: G70 2.5T 스포츠 패키지" required></p>
+                    <p><label for="lease-or-rental">희망 상품 선택</label><br>
+                        <select id="lease-or-rental" name="lease-or-rental" required>
+                            <option value="">선택</option>
+                            <option value="lease">리스 (Lease)</option>
+                            <option value="rental">장기렌트 (Rental)</option>
+                            <option value="undecided">미정 (비교 상담 요청)</option>
+                        </select>
+                    </p>
+                    <p><label for="contract-term">희망 계약 기간 (개월)</label><br>
+                        <select id="contract-term" name="contract-term" required>
+                            <option value="">선택</option>
+                            <option value="36">36개월</option>
+                            <option value="48">48개월</option>
+                            <option value="60">60개월</option>
+                        </select>
+                    </p>
+                    <p><label for="initial-cost">초기 비용 설정 (선수금/보증금)</label><br>
+                        <select id="initial-cost" name="initial-cost" required>
+                            <option value="">선택</option>
+                            <option value="0">초기 비용 없음 (무보증)</option>
+                            <option value="10">보증금/선수금 10%</option>
+                            <option value="20">보증금/선수금 20%</option>
+                            <option value="30">보증금/선수금 30%</option>
+                        </select>
+                    </p>
+                    <p><label for="expected-mileage">연간 예상 주행거리 (km)</label><br>
+                        <select id="expected-mileage" name="expected-mileage" required>
+                            <option value="">선택</option>
+                            <option value="10000">1만 km</option>
+                            <option value="20000">2만 km</option>
+                            <option value="30000">3만 km</option>
+                        </select>
+                    </p>
+                    <p><label for="consult-details">상담 요청 내용 (필수)</label><br><textarea id="consult-details" name="details" rows="4" required placeholder="예: 제네시스 G70 리스가격이 궁금합니다. 개인사업자로 세금 혜택을 받고 싶습니다."></textarea></p>
+
+                    <button type="submit" class="cta-btn">무료 맞춤 견적 및 상담 신청 완료</button>
+                </form>
+            </div>
+
+            <p>🕒 **상담 운영시간**: 평일 09:00–18:00 (주말 및 공휴일 제외)</p>
+        </section>
+
+      
